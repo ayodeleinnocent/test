@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	//Variable declaration
+	int n;
+	int a;
+	a = 8;
+	
+	cout << "Kindly enter a positive integer: ";
+	cin >> n;
+	//for function to increament i from 1 - 10
+	for (int i = 1; i <= 10; ++i) {
+		cout << n << " * " << i << " = " << n * i << endl;
+	}
+
+	if (a == n){
+		cout << "The number you inputed is equal to '8'" << endl;
+	}
+	else{
+		cout << "The number you inputed is NOT equal to '8'" << endl;
+		
+	}
+		
+	return 0;
+	}
